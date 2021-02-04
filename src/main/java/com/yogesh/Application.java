@@ -15,6 +15,8 @@ public class Application {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	StudentRepo repo=context.getBean(StudentRepo.class);
+
+     System.out.println("Data JPA APP.....!");
 	
 	/*
 	 * Student s=new Student(); s.setStudentId(202);
