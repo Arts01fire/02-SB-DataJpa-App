@@ -15,7 +15,8 @@ public class Application {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	StudentRepo repo=context.getBean(StudentRepo.class);
-	
+
+    
 	/*
 	 * Student s=new Student(); s.setStudentId(202);
 	 * s.setStudentName("Yogesh shandilya"); s.setStudentEmail("yogi@jlc");
