@@ -17,9 +17,6 @@ public class Application {
 
 
 
-              System.out.println("Data Jpa....!");
-
-
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	StudentRepo repo=context.getBean(StudentRepo.class);
 
