@@ -13,6 +13,13 @@ import com.yogesh.repo.StudentRepo;
 public class Application {
 
 	public static void main(String[] args) {
+
+
+
+
+              System.out.println("Data Jpa....!");
+
+
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	StudentRepo repo=context.getBean(StudentRepo.class);
 
