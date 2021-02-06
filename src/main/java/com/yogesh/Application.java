@@ -14,7 +14,6 @@ public class Application {
 
 	public static void main(String[] args) {
 
-             System.out.println("2nd Data JPA APp....!");
 
 
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
