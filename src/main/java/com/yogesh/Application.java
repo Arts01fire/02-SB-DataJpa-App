@@ -16,10 +16,6 @@ public class Application {
 
 
 
-
-             
-
-
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	StudentRepo repo=context.getBean(StudentRepo.class);
 
